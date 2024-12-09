@@ -7,20 +7,10 @@ public class SquareNumber {
     }
 
     public static void main(String[] args) {
-        // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
-
-        // Ask the user for a number
-        System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
-
-        // Calculate the square of the number
+        int num=10;
         int result = square(num);
 
-        // Output the result
-        System.out.println("The square of " + num + " is: " + result);
 
-        // Close the scanner
-        scanner.close();
+        System.out.println("The square of " + num + " is: " + result);
     }
 }
